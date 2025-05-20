@@ -1,0 +1,20 @@
+var mysql = require('mysql');
+
+var pool = mysql.createPool({
+    host: "localhost",
+  user: "root",
+  password: "",
+  database: "new_money_transfer"
+});
+
+/*con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});*/
+pool.getConnection(function(err) {
+    if (err) throw err; // not connected!
+    console.log("Connected!");
+   
+    
+  });
+module.exports = pool;
