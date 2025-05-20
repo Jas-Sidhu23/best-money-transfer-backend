@@ -1,4 +1,4 @@
-# Best Money Transfer Partner (BMTP) – Backend
+# Best Money Transfer Partner (BMTP) – Backend (IN PROGRESS)
 
 This is the backend server for **Best Money Transfer Partner (BMTP)**, an in-progress peer-to-peer money transfer mobile application. The backend is built using **Node.js**, **Express**, **MySQL**, and **JWT** for secure user authentication. It powers functionality such as user registration, login, wallet-to-wallet transfers, and account customization.
 
