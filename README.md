@@ -13,14 +13,23 @@ This is the backend server for **Best Money Transfer Partner (BMTP)**, an in-pro
 ## 📁 Project Structure
 
 new_money_transfer/
+
 ├── controller.js # Core business logic and main database query handling
+
 ├── routes.js # API route definitions
+
 ├── index.js # Entry point to start the server
+
 ├── connection.js # MySQL database connection setup
+
 ├── middlewares/ # Custom Express middlewares
+
 ├── helpers/ # Utility functions
+
 ├── uploads/ # Uploaded profile pictures
+
 ├── .env # Environment variables (excluded from version control)
+
 ├── package.json # Project dependencies and scripts
 
 > The main logic for handling user operations and database queries is centralized in `controller.js`. This file contains the core business rules for user authentication, transactions, and profile operations.
